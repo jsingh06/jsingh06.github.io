@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Registration Form</title>
+    <link rel="stylesheet" href="regBus.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="company-name">CAREER CONNECT</h1>    
+        <a href="index.php">
+            <img src="Career_Connect.png" alt="Career Connect Logo" class="logo">
+        </a>
+    </header>
+    <div class="job-form">
+        <h2>Register Open Position</h2>
+        <form action="regBus.php" method="post">
+            <label for="business-name">Business Name:</label>
+            <input type="text" id="business-name" name="business-name" required>
+
+            <label for="position-offered">Position Offered:</label>
+            <input type="text" id="position-offered" name="position-offered" required>
+
+            <label for="description">Description of Position:</label>
+            <textarea id="description" name="description" rows="4" required></textarea>
+
+            <button type="submit" class="register">Register</button>
+        </form>
+        <a href="index.php"><button class="homep">Back to Home Page</button></a>
+    </div>
+</body>
+</html>

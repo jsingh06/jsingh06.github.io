@@ -1,0 +1,152 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #e47d1e;
+    color: #fff;
+    padding: 10px;
+}
+
+.header h1 {
+    margin: 0;
+    margin-right: 80px;
+    margin-left: 70px;
+}
+
+.logo {
+    max-width: 250px;
+    max-height: 100px;
+    border-radius: 5px;
+    margin-right: 810px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.login{
+    display: inline-block;
+    cursor: pointer;
+    max-height: 80px;
+    margin-right: 50px;
+}
+
+.user {
+    margin-right: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+#job-listing {
+    flex: 1;
+    margin: 50px;
+    width: 80%;
+    margin-left: 70px;
+}
+
+.job-item {
+    border: 5px solid #e47d1e;
+    padding: 10px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+button {
+    background-color: #e47d1e;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#back-to-portal {
+    background-color: #e47d1e;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.main-body-layout   {
+    display: flex;
+
+}
+
+.job-listing-column {
+    flex: 2;
+}
+
+.school-listing-column  {
+    flex: 2;
+}
+
+.school-listing {
+    margin: 50px;
+    width: 500px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.school-item {
+    border: 5px solid #e47d1e;
+    padding: 10px;
+    margin-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.ads {
+    flex: 1;
+}
+
+.advert-placements {
+    margin-top: 70px;
+    border: 5px solid #0000FF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+    height: 400px;
+    width: 270px;
+    text-align: center;
+}
+
+.btns {
+    margin-top: 10px;
+    padding: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.business-btn {
+    width: 150px;
+    background-color: #0000FF;
+    color: #FFF44F;
+    font-size: large;
+}
+
+.school-btn {
+    width: 150px;
+    background-color: #0000FF;
+    color: #FFF44F;
+    font-size: large;
+}
+
+.schapply {
+    margin-left: 0px;
+    text-align: right;
+}

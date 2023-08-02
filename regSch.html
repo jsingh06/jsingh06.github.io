@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Sign-Up Form</title>
+    <link rel="stylesheet" href="regSch.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="company-name">CAREER CONNECT</h1>
+        <a href="index.php">
+            <img src="Career_Connect.png" alt="Career Connect Logo" class="logo">
+        </a>
+    </header>
+    <div class="signup-form">
+        <h2>School Sign-Up</h2>
+        <form action="regSch.php" method="post">
+
+            <label for="school-name">School Name:</label>
+            <input type="text" id="school-name" name="school-name" required>
+
+            <label for="curriculum">Curriculum Offered:</label>
+            <select id="curriculum" name="curriculum" required>
+                <option value="">Select Curriculum</option>
+                <option value="Cambridge IGCSE">Cambridge IGCSE</option>
+                <option value="Cambridge IGCSE and IAL">Cambridge IGCSE and IAL</option>
+                <option value="IB">IB</option>
+                <option value="8-4-4/ CBC 2-6-3-3-3">8-4-4/ CBC 2-6-3-3-3</option>
+            </select>
+
+            <label for="grades-offered">Grades Offered (Please type as value to value eg: 1 to 3):</label>
+            <input type="text" id="grades-offered" name="grades-offered" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+        <a href="index.php"><button class="homep">Back to Home Page</button></a>
+    </div>
+</body>
+</html>

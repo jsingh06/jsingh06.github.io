@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #e47d1e;
+    color: #fff;
+}
+
+.company-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 1px; 
+}
+
+.logo {
+    max-width: 250px;
+    max-height: 100px;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+
+.job-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #e47d1e;
+    border-radius: 10px;
+    margin-top: 50px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing for textarea */
+}
+
+.register {
+    background-color: #e47d1e;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.homep {
+    background-color: #e47d1e;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 7px;
+    width: 100%;
+}

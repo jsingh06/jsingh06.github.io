@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.landing-section {
+    height: 100vh; /* Set the height of the landing section to full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.reveal-section {
+    height: 100vh; /* Set the height of the reveal section to full viewport height */
+    background-color: #007bff;
+    color: #fff;
+    display: none; /* Hide the reveal section initially */
+}
+    
